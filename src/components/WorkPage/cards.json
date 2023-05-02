@@ -1,0 +1,40 @@
+[
+  {
+    "id":"c1d00596-bb59-11ed-afa1-0242ac120002",
+    "title": "My first website",
+    "category": "web development",
+    "date":"2.2.2021",
+    "img":"salarwebsite.png",
+    "alt":"salarwebsite",
+    "link":"https://salar-sali.github.io/",
+    "description":"This website is my first web development project, which I created while I was still learning HTML and CSS. I made it responsive to fit various screen sizes, including mobile, tablet, and desktop screens. The website is divided into three sections: Services, Projects, and Contact. You can view a demo of the website by clicking on the following link."
+  },
+  {
+    "id":"9e7433be-bb5a-11ed-afa1-0242ac120002",
+    "title": "sisters in arms",
+    "category": "translation",
+    "date":"2.2.2019",
+    "img":"sistersarms.png",
+    "alt":"sistersarms",
+    "description":"Well, if I wasn't a computer wizard, I would've been a talking parrot! Ever since I was a little kiddo, I've been keen on learning different languages. I'm fluent in Kurdish and Arabic, and I've picked up English and Russian along the way. Next up, I'm thinking of learning Spanish, so I can impress my friends with my Spanish telenovela skills!  You know, speaking of translations, have you heard of that movie called Sister in Arms? It's a real blockbuster, but, unfortunately, it never made it to the Arabic-speaking world. So, I decided to take matters into my own hands and translate the whole movie from English to Arabic! And let me tell you, I did an amazing job! I've actually translated many movies, not just that one. So, if you're ever looking for a translator, you know who to call!"  
+  },
+  {
+    "id":"a5cc2b58-bb5a-11ed-afa1-0242ac120002",
+    "title": "Mars Curiosity Rover",
+    "category": "Robotics",
+    "date":"2.2.2020",
+    "img":"rover.jpg",
+    "alt":"rover",
+    "description":"NASA has been going over Mars lately! They're super keen to explore it, so they've been building all sorts of cool tools and robots to help them out. The problem is, Mars is a whole different planet, so they had to get creative with their designs. This robot was inspired by one of NASA's rovers and it's got similar bits and bobs, like sensors, motors and controls. It's a big boy, measuring 100 by 60 by 40 centimeters, which makes it perfect for tackling obstacles on Mars. This robot was shown at a big exhibition and loads of people were really interested in it."
+  },
+ 
+  {
+    "id":"abcb830a-bb5a-11ed-afa1-0242ac120002",
+    "title": "multifunction robot",
+    "category": "Robotics",
+    "date":"2.2.2019",
+    "img":"multifunctnrobot.jpg",
+    "alt":"sistersarms",
+    "description":"Introducing the Multifunction Robot - the ultimate adventurer that takes on the perilous and precarious places that you don't want to go. Think: charred buildings, teetering towers, and who knows what else! This little guy is an Internet of Things (IoT) wonder, so you can steer it from anywhere - even if you're planet hopping! Equipped with a camera, you can watch as the robot roams through the wilderness. But wait, there's more! The robot's 4D arm can be controlled by you to tackle obstacles and grab objects. It's like having your own personal superhero. And let's not forget about its impressive size - this metallic marvel measures a whopping 60x40x15cm - that's bigger than a bunny and a mouse combined! It was constructed using top-of-the-line sensors, motors, and controllers (arduino and nodemcu). You may have seen it at the Mechanical and Electrical Exhibition (MEE) - it was quite the hit! But hey, no need to take our word for it. Okay, fine, we'll admit it - it was the best project ever!"  
+  }
+]

@@ -1,5 +1,5 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
-import TestpageComponent from "../components/testPage/TestpageComponent";
+import TestpageComponent from "../components/TestPage/TestpageComponent";
 import NestedTest from "./NestedTest";
 
 function TestPage() {
