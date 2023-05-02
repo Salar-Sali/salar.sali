@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import MainTemplate from "../../pages/MainTemplate";
 import cards from "./cards.json";
 
-function CardDetails() {
+function WorkPageDetail() {
   const { id } = useParams();
   return (
     <MainTemplate>
@@ -44,4 +44,4 @@ function CardDetails() {
   );
 }
 
-export default CardDetails;
+export default WorkPageDetail;
