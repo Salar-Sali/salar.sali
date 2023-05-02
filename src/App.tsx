@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import WorkPage from "./pages/WorkPage";
 import WorkPageDetail from "./components/WorkPage/WorkPageDetail";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/About" element={<AboutPage />} />
           <Route path="/work" element={<WorkPage />} />
           <Route path="/work/:id" element={<WorkPageDetail />} />
+          <Route path="/blog" element={<BlogPage />} />
           {/* redirect */}
           <Route path="/lost" element={<Navigate to="/" />} />
           <Route path="/*" element={<ErrorPage />} />
