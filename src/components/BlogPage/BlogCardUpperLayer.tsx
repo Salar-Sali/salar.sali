@@ -1,7 +1,13 @@
-import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { setHeader } from "../../feature/headerSlice";
+import { TabsNames } from "../common/TabsNames";
 
 function BlogCardUpperLayer() {
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const handleTabClick = () => {
+    dispatch(setHeader(TabsNames.HOME));
+  };
 
   return (
     <div
@@ -13,14 +19,15 @@ function BlogCardUpperLayer() {
       <h4 className="text-center w-full text-white font-bold">
         Clean Archetecture in React
       </h4>
-      <span
+      <Link
         className="text-md font-medium
   bg-red-500/80 text-white px-2 py-1 rounded-md 
   hover:bg-red-500/95 cursor-pointer"
-        onClick={() => navigate("/")}
+        onClick={() => handleTabClick()}
+        to="/"
       >
         Read more
-      </span>
+      </Link>
     </div>
   );
 }
