@@ -20,14 +20,14 @@ function HeaderTabs() {
     dispatch(setHeader(tab));
   };
   return (
-    <div className=" hidden justify-center  gap-x-2 text-md font-medium	md:flex">
+    <div className=" hidden   gap-x-2 text-md h-full font-medium	md:flex md:items-center  md:justify-center">
       {tabs.map((tab) => {
         return (
           <Link
             to={tab !== TabsNames.HOME ? `/${tab}` : "/"}
             key={tabs.indexOf(tab)}
-            className={`uppercase px-2 py-1 rounded tracking-wide duration-150 ease-in-out  
-            ${header === tab ? "bg-red-500 text-white" : ""} 
+            className={`uppercase px-2 py-1 rounded tracking-wide duration-150 ease-in-out h-full flex items-center 
+            ${header === tab ? "bg-red-500 text-white " : ""} 
             ${header === tab ? "" : "hover:text-red-500"}
             `}
             onClick={() => handleTabClick(tab)}
