@@ -9,7 +9,7 @@ function Logo({ children }: Props) {
   const navigate = useNavigate();
   return (
     <div
-      className="font-bold uppercase text-xl md:text-2xl text-red-500 cursor-pointer"
+      className="font-bold uppercase text-2xl md:text-4xl text-red-500 cursor-pointer"
       onClick={() => navigate("/")}
     >
       {children}

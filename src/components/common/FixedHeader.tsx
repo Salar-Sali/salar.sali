@@ -8,7 +8,7 @@ import Logo from "./Logo";
  */
 function FixedHeader() {
   return (
-    <div className="sticky top-0 flex justify-around items-center h-20  bg-black text-white py-2 md:py-4">
+    <div className="sticky top-0 flex justify-around items-center h-20 z-50 bg-black text-white py-4">
       <Logo>Elon</Logo>
       <HeaderTabs />
       <Burger />
