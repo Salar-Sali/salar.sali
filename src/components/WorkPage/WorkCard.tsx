@@ -37,8 +37,8 @@ function WorkCard({ id, title, category, date, img, alt }: Props) {
 
         <span
           onClick={() => navigate(`${id}`)}
-          className="font-bold text-red-500 py-1 px-2 hover:text-red-300
-          text-sm md:text-base "
+          className=" text-red-500 py-1 px-1 hover:text-red-300
+          text-sm "
         >
           Read more
         </span>

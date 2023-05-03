@@ -1,4 +1,3 @@
-import React from "react";
 import Burger from "./Burger";
 import HeaderTabs from "./HeaderTabs";
 import Logo from "./Logo";
@@ -10,7 +9,7 @@ import Logo from "./Logo";
 function FixedHeader() {
   return (
     <div className="sticky top-0 flex justify-around items-center h-20  bg-black text-white py-2 md:py-4">
-      <Logo>Salar</Logo>
+      <Logo>Elon</Logo>
       <HeaderTabs />
       <Burger />
     </div>
