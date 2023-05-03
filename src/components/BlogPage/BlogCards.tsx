@@ -7,14 +7,14 @@ function BlogCards() {
       <BlogCard backgroundImage="rendering.jpg" />
       <BlogCard backgroundImage="testing.jpg" />
       <BlogCard backgroundImage="rendering.jpg" />
+      <BlogCard backgroundImage="ca.png" />
+      <BlogCard backgroundImage="multifunctnrobot.jpg" />
       <BlogCard backgroundImage="testing.jpg" />
-      <BlogCard backgroundImage="rendering.jpg" />
+      <BlogCard backgroundImage="ca.png" />
       <BlogCard backgroundImage="testing.jpg" />
-      <BlogCard backgroundImage="rendering.jpg" />
-      <BlogCard backgroundImage="testing.jpg" />
-      <BlogCard backgroundImage="rendering.jpg" />
-      <BlogCard backgroundImage="testing.jpg" />
-      <BlogCard backgroundImage="rendering.jpg" />
+      <BlogCard backgroundImage="rover.jpg" />
+      <BlogCard backgroundImage="multifunctnrobot.jpg" />
+      <BlogCard backgroundImage="sistersarms.png" />
       <BlogCard backgroundImage="testing.jpg" />
     </div>
   );
